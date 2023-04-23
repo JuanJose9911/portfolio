@@ -68,7 +68,22 @@ body::-webkit-scrollbar-track {
     cursor: pointer;
 }
 
+.hireMe__button2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
 .hireMe__button a {
+    background-color: var(--secondary-bg-color);
+    color: var(--font-color);
+    font-family: var(--font);
+    font-size: small;
+    padding: 1rem 1.5rem;
+    border-color: unset;
+    border-width: 0;
+}
+.hireMe__button2 a {
     background-color: var(--secondary-bg-color);
     color: var(--font-color);
     font-family: var(--font);
@@ -256,7 +271,7 @@ body::-webkit-scrollbar-track {
 
 .align-text{
     text-align: justify;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .about__me .image img {
@@ -272,26 +287,9 @@ body::-webkit-scrollbar-track {
     position: relative;
     background-color: #707070;
 }
+.knowledge__item{
+    margin-top: 8px;
 
-.progress__bar span {
-    height: 100%;
-    position: absolute;
-}
-.progress__wordpress span {
-    background-color: #ff4900;
-    width: 100%;
-}
-.progress__html span {
-    background-color: #ff7004;
-    width: 75%;
-}
-.progress__angular span {
-    background-color: #ff9809;
-    width: 80%;
-}
-.progress__reactJs span {
-    background-color: #ff9809;
-    width: 95%;
 }
 
 /* ------- FREE LANCER -------- */
@@ -311,6 +309,7 @@ body::-webkit-scrollbar-track {
 .card {
     background-color: #111111;
     transition: all 0.2s ease-in;
+    border-radius: 10px;
 }
 .service__logo {
     height: 60px;
@@ -337,6 +336,10 @@ body::-webkit-scrollbar-track {
 
 
 /* ------- PORTFOLIO -------- */
+
+.portfolio__title{
+    margin-bottom: 10px;
+}
 
 .gallery__categories ul li {
     font-size: small;
